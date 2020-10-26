@@ -25,8 +25,7 @@
       <br><br>
       <h4 class="header center orange-text">Blender HEX color converter</h4>
       <div class="row center">
-        <h5 class="header col s12 light">Converts HEX color from/to Blender "Gamma Corrected" HEX color. Works both
-          ways.</h5>
+        <h5 class="header col s12 light">Converts HEX color from/to Blender "Gamma Corrected" HEX color</h5>
       </div>
     </div>
   </header>
