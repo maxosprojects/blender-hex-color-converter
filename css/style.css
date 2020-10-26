@@ -1,0 +1,21 @@
+/* Custom Stylesheet */
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+input[type=text]:not(.browser-default) {
+  margin-top: 12px;
+  margin-bottom: 0;
+  height: 2rem;
+}
+
+.align-to-right {
+  text-align: right;
+}
