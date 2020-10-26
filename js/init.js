@@ -50,7 +50,7 @@
 
   function convert(id, value) {
     let parts = split(value);
-    let res = parts.map(CONVERTION_MAP[id]).join('');
+    let res = parts.map(CONVERTION_MAP[id]).join('').toUpperCase();
     $('#' + XREF[id]).val(res);
     valid($('#' + XREF[id])[0], true);
   }
